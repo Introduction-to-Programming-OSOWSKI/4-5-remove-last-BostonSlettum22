@@ -1,1 +1,7 @@
-#WRITE YOUR CODE IN THIS FILE
+def removeLast(j):
+
+    j = [j]
+
+    j.append("fish")
+
+print(removeLast(["cat","dog","fish"]))
