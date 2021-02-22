@@ -1,7 +1,8 @@
-def removeLast(j):
+def removelast(j):  
 
-    j = [j]
+    j = [1,2,3,4,5]
 
-    j.append("fish")
+    j.pop(4)
 
-print(removeLast(["cat","dog","fish"]))
+    return j
+print(removelast([1,2,3,4,5]))
